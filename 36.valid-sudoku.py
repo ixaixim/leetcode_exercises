@@ -12,9 +12,7 @@ from collections import defaultdict
 # @lc code=start
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        # this problem requires O(n^2) time complexity.
-        # However, there are a few tricks that can speed up the computation. 
-        # Here we use a dictionary of sets, one dictionary for each column/row/box. 
+        # This code solves the Sudoku problem in O(N^2) time complexity by iterating through each row and column of the board. It uses a dictionary of sets, one for each column/row/box, to check for duplicates in constant time. The worst space complexity of this approach is O(N^2), since we add to the set inside the nested loop.        
         box_number = lambda r,c: 3*(r//3) + (c//3) # r row number, c col number
         hash_map_box = defaultdict(set)
         hash_map_col = defaultdict(set)
