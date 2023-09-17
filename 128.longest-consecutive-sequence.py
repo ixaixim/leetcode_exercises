@@ -8,7 +8,7 @@
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         # This solution is O(N), very smart. Worst case is an array containing a full sequence. In that case we iterate through the array twice (O(2N))        longest = 0 
-        num_set = set(nums)
+        num_set = set(numas)
 
         for n in num_set:
             if (n-1) not in num_set:
