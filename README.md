@@ -1,7 +1,8 @@
 # LeetCode Problem Collection
 
-Welcome to my collection of LeetCode problems! This repository is designed to help you improve your coding skills by providing solutions to a variety of LeetCode problems. Whether you're a beginner or an experienced programmer, you'll find a range of problems to challenge yourself and expand your knowledge.
+Welcome to my collection of LeetCode problems! This repository is designed to help me improve my coding skills by providing solutions to a variety of LeetCode problems. You, the reader, might find it helpful because it contains a collection of the most asked problems during interviews.
 
+![Logo-leetcode](img/leetcode.png)
 ## Accessing LeetCode Problems in Visual Studio Code
 
 To make the most of this collection, you can access LeetCode problems directly within Visual Studio Code using the LeetCode plugin. Here's a step-by-step guide on how to set it up:
